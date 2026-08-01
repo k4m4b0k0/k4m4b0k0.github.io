@@ -1,23 +1,23 @@
 :root {
-  --color-bg: #0f0f1a;
-  --color-bg-alt: #161625;
-  --color-text-main: #e4e4ef;
-  --color-text-muted: #9b9bb4;
-  --color-primary: #c4b5fd;
-  --color-accent: #a78bfa;
-  --color-border: rgba(255, 255, 255, 0.08);
-  --color-glass: rgba(22, 22, 37, 0.75);
-  --color-glass-border: rgba(255, 255, 255, 0.06);
-  --color-card: rgba(255, 255, 255, 0.04);
-  --color-card-hover: rgba(255, 255, 255, 0.07);
+  --color-bg: #fdfcff;
+  --color-bg-alt: #f5f3ff;
+  --color-text-main: #334155;
+  --color-text-muted: #64748b;
+  --color-primary: #7c3aed;
+  --color-accent: #c026d3;
+  --color-border: rgba(124, 58, 237, 0.15);
+  --color-glass: rgba(255, 255, 255, 0.75);
+  --color-glass-border: rgba(255, 255, 255, 0.6);
+  --color-card: rgba(255, 255, 255, 0.6);
+  --color-card-hover: rgba(255, 255, 255, 0.9);
   
   --max-width: 1000px;
   --nav-height: 70px;
   
-  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.3);
-  --shadow-md: 0 4px 12px rgba(0, 0, 0, 0.4);
-  --shadow-lg: 0 10px 30px rgba(0, 0, 0, 0.5);
-  --shadow-glow: 0 0 20px rgba(167, 139, 250, 0.15);
+  --shadow-sm: 0 1px 3px rgba(124, 58, 237, 0.1);
+  --shadow-md: 0 4px 12px rgba(124, 58, 237, 0.1);
+  --shadow-lg: 0 10px 30px rgba(124, 58, 237, 0.15);
+  --shadow-glow: 0 0 20px rgba(192, 38, 211, 0.2);
 }
 
 * {

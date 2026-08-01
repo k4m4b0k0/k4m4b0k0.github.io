@@ -35,7 +35,7 @@
   justify-content: center;
   gap: 1rem;
   font-size: 1.1rem;
-  font-weight: 500;
+  font-weight: 600;
   color: var(--color-text-main);
   transition: all 0.3s ease;
   padding: 1.2rem;
@@ -49,10 +49,10 @@
 
 .socialLink:hover {
   transform: translateY(-5px);
-  color: #ffffff;
-  border-color: rgba(167, 139, 250, 0.4);
+  color: var(--color-primary);
+  border-color: rgba(124, 58, 237, 0.4);
   background-color: var(--color-card-hover);
-  box-shadow: var(--shadow-glow);
+  box-shadow: var(--shadow-lg);
 }
 
 .socialIcon {

@@ -31,26 +31,20 @@
 .card:hover {
   transform: translateY(-5px);
   background: var(--color-card-hover);
-  border-color: rgba(167, 139, 250, 0.3);
-  box-shadow: var(--shadow-glow);
-}
-
-.gameIcon {
-  font-size: 2.5rem;
-  display: block;
-  margin-bottom: 1rem;
-  filter: drop-shadow(0 0 8px rgba(167, 139, 250, 0.4));
+  border-color: rgba(124, 58, 237, 0.3);
+  box-shadow: var(--shadow-lg);
 }
 
 .gameTitle {
-  font-size: 1.1rem;
-  font-weight: 700;
-  color: var(--color-text-main);
+  font-size: 1.15rem;
+  font-weight: 800;
+  color: var(--color-primary);
   margin-bottom: 0.5rem;
   letter-spacing: 0.5px;
 }
 
 .gameDesc {
   font-size: 0.88rem;
+  font-weight: 500;
   color: var(--color-text-muted);
 }

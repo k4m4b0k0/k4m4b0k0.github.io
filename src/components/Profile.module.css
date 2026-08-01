@@ -18,9 +18,9 @@
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  box-shadow: 0 0 30px rgba(167, 139, 250, 0.2);
+  box-shadow: 0 10px 30px rgba(124, 58, 237, 0.15);
   position: relative;
-  background: transparent;
+  background: white;
 }
 
 .avatarImg {
@@ -37,9 +37,8 @@
   left: -15px;
   right: -15px;
   bottom: -15px;
-  border: 2px solid rgba(167, 139, 250, 0.3);
+  border: 2px solid rgba(124, 58, 237, 0.2);
   border-radius: 50%;
-  filter: drop-shadow(0 0 10px rgba(167, 139, 250, 0.5));
 }
 
 .infoGrid {
@@ -58,7 +57,7 @@
 .label {
   font-size: 0.8rem;
   font-weight: 600;
-  color: var(--color-accent);
+  color: var(--color-primary);
   text-transform: uppercase;
   letter-spacing: 1.5px;
 }
@@ -66,7 +65,7 @@
 .value {
   font-size: 1.1rem;
   color: var(--color-text-main);
-  font-weight: 500;
+  font-weight: 600;
 }
 
 @media (max-width: 800px) {
