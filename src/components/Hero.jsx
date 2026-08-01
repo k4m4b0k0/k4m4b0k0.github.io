@@ -4,7 +4,6 @@ export default function Hero() {
   return (
     <section id="hero" className={styles.hero}>
       <div className={`${styles.container} animate-fade-in`}>
-        <h2 className={styles.greeting}>Hi, I&apos;m</h2>
         <h1 className={styles.name}>mel</h1>
         <p className={styles.aliases}>aka. める / かまぼこ / k4m4b0k0</p>
         <h3 className={styles.title}>
