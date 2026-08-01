@@ -8,7 +8,9 @@ export default function Profile() {
         
         <div className={styles.content}>
           <div className={styles.imageContainer}>
-            <div className={styles.avatar}></div>
+            <div className={styles.avatar}>
+              <img src="./avatar.png" alt="mel" className={styles.avatarImg} />
+            </div>
           </div>
           
           <div className={styles.details}>
