@@ -3,23 +3,35 @@ import styles from './Games.module.css';
 const games = [
   {
     title: 'Valorant',
-    icon: '🎯',
-    description: 'タクティカルFPS',
-  },
-  {
-    title: 'Minecraft',
-    icon: '⛏️',
-    description: 'サンドボックス / サーバー運用',
+    description: '万年ゴールド',
   },
   {
     title: 'Apex Legends',
-    icon: '🔫',
-    description: 'バトルロイヤル',
+    description: '万年プラチナ',
   },
   {
-    title: 'Overwatch 2',
-    icon: '🛡️',
-    description: 'チームFPS',
+    title: 'Overwatch',
+    description: '万年プラチナ',
+  },
+  {
+    title: 'Minecraft',
+    description: 'JavaのMOD環境でよく遊んでます',
+  },
+  {
+    title: 'ARK',
+    description: 'ベロナサウルスすき、MODでよくあそぶ',
+  },
+  {
+    title: 'Limbus Company',
+    description: '',
+  },
+  {
+    title: 'モンハンシリーズ',
+    description: '4G, X, XX, IB, Wildz',
+  },
+  {
+    title: 'etc...',
+    description: '',
   },
 ];
 
@@ -33,9 +45,8 @@ export default function Games() {
         <div className={styles.grid}>
           {games.map((game, idx) => (
             <div key={idx} className={styles.card}>
-              <span className={styles.gameIcon}>{game.icon}</span>
               <h3 className={styles.gameTitle}>{game.title}</h3>
-              <p className={styles.gameDesc}>{game.description}</p>
+              {game.description && <p className={styles.gameDesc}>{game.description}</p>}
             </div>
           ))}
         </div>
