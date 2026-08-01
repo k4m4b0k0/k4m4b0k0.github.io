@@ -36,21 +36,23 @@
   gap: 1rem;
   font-size: 1.1rem;
   font-weight: 500;
-  color: var(--color-primary);
-  transition: transform 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+  color: var(--color-text-main);
+  transition: all 0.3s ease;
   padding: 1.2rem;
-  background-color: var(--color-bg-alt);
-  border-radius: 8px;
-  border: 1px solid var(--color-border);
+  background-color: var(--color-card);
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  border-radius: 12px;
+  border: 1px solid var(--color-glass-border);
   text-decoration: none;
 }
 
 .socialLink:hover {
-  transform: translateY(-3px);
-  color: var(--color-accent);
-  border-color: var(--color-accent);
-  background-color: white;
-  box-shadow: var(--shadow-sm);
+  transform: translateY(-5px);
+  color: #ffffff;
+  border-color: rgba(167, 139, 250, 0.4);
+  background-color: var(--color-card-hover);
+  box-shadow: var(--shadow-glow);
 }
 
 .socialIcon {

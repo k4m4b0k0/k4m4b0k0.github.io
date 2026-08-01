@@ -18,9 +18,9 @@
   width: 280px;
   height: 280px;
   border-radius: 50%;
-  box-shadow: var(--shadow-lg);
+  box-shadow: 0 0 30px rgba(167, 139, 250, 0.2);
   position: relative;
-  background: white;
+  background: transparent;
 }
 
 .avatarImg {
@@ -37,9 +37,9 @@
   left: -15px;
   right: -15px;
   bottom: -15px;
-  border: 2px solid var(--color-accent);
+  border: 2px solid rgba(167, 139, 250, 0.3);
   border-radius: 50%;
-  opacity: 0.3;
+  filter: drop-shadow(0 0 10px rgba(167, 139, 250, 0.5));
 }
 
 .infoGrid {
