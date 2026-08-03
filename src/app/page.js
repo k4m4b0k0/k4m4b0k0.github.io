@@ -2,6 +2,7 @@ import Hero from '../components/Hero';
 import Profile from '../components/Profile';
 import Skills from '../components/Skills';
 import Games from '../components/Games';
+import Works from '../components/Works';
 import Contact from '../components/Contact';
 
 export default function Home() {
@@ -11,6 +12,7 @@ export default function Home() {
       <Profile />
       <Skills />
       <Games />
+      <Works />
       <Contact />
     </>
   );

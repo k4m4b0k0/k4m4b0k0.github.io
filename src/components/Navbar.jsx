@@ -21,6 +21,7 @@ export default function Navbar() {
           <li><a href="#profile">Profile</a></li>
           <li><a href="#skills">Skills</a></li>
           <li><a href="#games">Games</a></li>
+          <li><a href="#works">Works</a></li>
           <li><a href="#contact">Contact</a></li>
         </ul>
       </div>
